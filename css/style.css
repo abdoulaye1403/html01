@@ -1,0 +1,46 @@
+
+*{
+               margin: 0;
+               padding: 0;
+}
+#parent{
+               display: flex;
+               height: 100vh;
+}
+
+aside{
+        width: 300px;
+        padding: 10px;     
+}
+
+
+main{
+               margin-top: 20px;
+               width: 100%;
+               padding: 0px 50px;
+}
+
+header{
+               padding: 40px;
+               text-align: center;
+}
+
+.sections{
+               width: 100%;
+               display: flex;
+               flex-wrap: wrap;
+}
+
+.sections .section{
+               width: 100%;
+               margin-bottom: 30px;
+}
+
+.sections .section h2{
+               margin-bottom: 20px;
+}
+aside img{
+               width: 100px;
+               margin: 10px;
+               border-top-left-radius: 50% 50%; border-top-right-radius: 50% 50%; border-bottom-right-radius: 50% 50%; border-bottom-left-radius: 50% 50%;
+}
